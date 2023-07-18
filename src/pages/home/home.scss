@@ -1,0 +1,28 @@
+.home-page {
+  background-image: url("https://i.pinimg.com/564x/b2/24/9d/b2249d08cdc4f082b45bd9ff607ab3ee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 16px;
+  color: #ececec;
+
+  &__content {
+    margin-top: 32px;
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__card-container {
+    background-color: #73646d;
+    padding: 16px;
+    margin-top: 16px;
+    display: grid;
+    //grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+  }
+}
